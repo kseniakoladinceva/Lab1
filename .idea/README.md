@@ -86,6 +86,9 @@
 
 #### Блок-схема
 
+![diagram (1)](https://github.com/user-attachments/assets/6371f995-5835-4849-8d1c-3e49e5a47f8a)
+
+
 
 
 ### 5. Программа
