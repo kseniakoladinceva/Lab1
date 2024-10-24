@@ -90,8 +90,10 @@
    На экран выводится значение переменной `count`.
 
 #### Блок-схема
+![diagram (2)](https://github.com/user-attachments/assets/602e011b-a466-4020-9ee6-ea5274c943eb)
 
-![diagram (1)](https://github.com/user-attachments/assets/6371f995-5835-4849-8d1c-3e49e5a47f8a)
+
+
 
 
 
