@@ -5,21 +5,37 @@ public class Main {
     public static PrintStream out = System.out;
     public static void main(String[] args) {
         int x = in.nextInt();
-        int []height = new int[5];
-
-        for (int i = 0; i < height.length; i++) {
-            height[i] = in.nextInt();
-        }
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
+        int d = in.nextInt();
+        int e = in.nextInt();
         int count = 1;
 
-        for (int i = 0; i < height.length - 1; i++) {
-            if (height[i] >= x) {
+        if (a >= x) {
+            count++;
+            if (b >= x){
                 count++;
+                if (c >= x){
+                    count++;
+                    if (d >= x) {
+                        count++;
+                        out.print(count);
+                    }
+                    else {
+                        out.print(count);
+                    }
+                }
+                else {
+                    out.print(count);
+                }
             }
             else {
-                break;
+                out.print(count);
             }
         }
-        out.print(count);
+        else {
+            out.print(count);
+        }
     }
 }
